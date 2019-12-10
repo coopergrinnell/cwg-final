@@ -1,0 +1,88 @@
+body {
+
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    color: #111;
+    text-shadow: 2px 2px #ccc;
+    font-size: 86px;
+}
+
+h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #ccc;
+    text-shadow: 2px 2px #111;
+    font-size: 36px;
+}
+
+h3{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffc0af;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+nav a {
+    padding: .1em;
+}
+
+main {
+
+}
+
+header {
+    grid-area: head;
+    display: grid;
+    grid-gap: 1em;
+    justify-items: center;
+    align-items: center;
+    padding: .5em;
+    margin-bottom: .1em;
+    text-align: center;
+}
+
+article div{
+    background-color: #333;
+    color: #eee;
+    padding: 1em;
+}
+
+.title-stack{
+
+}
+
+article{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas: 
+    "banner banner banner"
+    "feat1 blog1 blog1"
+    "feat2 blog2 blog2"
+    "feat3 blog3 blog3";
+}
+
+
+.feat1{grid-area: feat1;}
+.feat2{grid-area: feat2;}
+.feat3{grid-area: feat3;}
+.banner{grid-area: banner;}
+.blog1{grid-area: blog1;}
+.blog2{grid-area: blog2;}
+.blog3{grid-area: blog3;}
+
+
+footer{
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: #ffc0af;
+    text-align: center;
+}
