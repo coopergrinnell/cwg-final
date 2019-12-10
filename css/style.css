@@ -72,9 +72,21 @@ article{
 }
 
 
-.feat1{grid-area: feat1;}
-.feat2{grid-area: feat2;}
-.feat3{grid-area: feat3;}
+.feat1{
+    grid-area: feat1;
+    padding-top: 1.75em;
+    padding-bottom: 1.75em;
+}
+.feat2{
+    grid-area: feat2;
+    padding-top: 1.75em;
+    padding-bottom: 1.75em;
+}
+.feat3{
+    grid-area: feat3;
+    padding-top: 1.75em;
+    padding-bottom: 1.75em;
+}
 .banner{grid-area: banner;}
 .blog1{grid-area: blog1;}
 .blog2{grid-area: blog2;}
@@ -85,4 +97,7 @@ footer{
     font-family: 'Gloria Hallelujah', cursive;
     background-color: #ffc0af;
     text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
 }
