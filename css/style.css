@@ -6,7 +6,6 @@ h1 {
     font-family: 'Russo One', sans-serif;
     color: #111;
     text-shadow: 2px 2px #ccc;
-    font-size: 86px;
 }
 
 h2 {
@@ -28,7 +27,6 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #ffc0af;
     font-family: 'Gloria Hallelujah', cursive;
 }
 
@@ -63,7 +61,7 @@ article div{
 
 article{
     display: grid;
-    grid-gap: 1em;
+    grid-gap: 15px;
     grid-template-areas: 
     "banner banner banner"
     "feat1 blog1 blog1"
@@ -74,22 +72,22 @@ article{
 
 .feat1{
     grid-area: feat1;
-    padding-top: 1.75em;
-    padding-bottom: 1.75em;
+    padding: 15px;
 }
 .feat2{
     grid-area: feat2;
-    padding-top: 1.75em;
-    padding-bottom: 1.75em;
-}
+    height: 300px;
+    }
 .feat3{
     grid-area: feat3;
-    padding-top: 1.75em;
-    padding-bottom: 1.75em;
+    height: 300px;
 }
 .banner{grid-area: banner;}
 .blog1{grid-area: blog1;}
-.blog2{grid-area: blog2;}
+.blog2{
+    grid-area: blog2;
+    height: 300px;
+}
 .blog3{grid-area: blog3;}
 
 
@@ -100,4 +98,17 @@ footer{
     padding-top: 1px;
     padding-bottom: 1px;
 
+}
+
+#itempic{
+padding-top: 18%;
+}
+
+#ugreed{
+    padding-top: 18%;
+}
+
+.link{
+    color: #eee;
+    font-size: 22px;
 }
