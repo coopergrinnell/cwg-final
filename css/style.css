@@ -55,10 +55,6 @@ article div{
     padding: 1em;
 }
 
-.title-stack{
-
-}
-
 article{
     display: grid;
     grid-gap: 15px;
@@ -69,18 +65,47 @@ article{
     "feat3 blog3 blog3";
 }
 
+article2{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-areas: 
+    "feat1 blog1 blog1"
+    "feat2 blog2 blog2"
+    "feat3 blog3 blog3"
+    "feat4 blog4 blog4"
+    "feat5 blog5 blog5";
+}
+article2 div{
+    background-color: #333;
+    color: #eee;
+    padding: 1em;
+}
+
 
 .feat1{
     grid-area: feat1;
     padding: 15px;
+    margin: auto;
 }
 .feat2{
     grid-area: feat2;
-    height: 300px;
+    padding: 15px;
+    margin: auto;
     }
 .feat3{
     grid-area: feat3;
-    height: 300px;
+    padding: 15px;
+    margin: auto;
+}
+.feat4{
+    grid-area: feat4;
+    padding: 15px;
+    margin: auto;
+}
+.feat5{
+    grid-area: feat5;
+    padding: 15px;
+    margin: auto;
 }
 .banner{grid-area: banner;}
 .blog1{grid-area: blog1;}
@@ -89,11 +114,13 @@ article{
     height: 300px;
 }
 .blog3{grid-area: blog3;}
+.blog4{grid-area: blog4;}
+.blog5{grid-area: blog5;}
 
 
 footer{
     font-family: 'Gloria Hallelujah', cursive;
-    background-color: #ffc0af;
+    color: #eee;
     text-align: center;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -111,4 +138,8 @@ padding-top: 18%;
 .link{
     color: #eee;
     font-size: 22px;
+}
+
+table{
+    color: #eee;
 }
