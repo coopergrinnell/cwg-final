@@ -111,7 +111,6 @@ article2 div{
 .blog1{grid-area: blog1;}
 .blog2{
     grid-area: blog2;
-    height: 300px;
 }
 .blog3{grid-area: blog3;}
 .blog4{grid-area: blog4;}
@@ -142,4 +141,10 @@ padding-top: 18%;
 
 table{
     color: #eee;
+}
+.title{
+    font-size: 80px;
+    color: #eee;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
 }
